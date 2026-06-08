@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mkhize's Furniture | Furniture & Appliances</title>
+    <meta name="description" content="Shop furniture, appliances, décor and more for every South African home.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-nav">
+        <div class="top-nav-inner">
+            <div class="top-nav-left">
+                <a href="#" id="trackOrderLinkTop">Track Order</a>
+                <a href="#" id="helpCentreLinkTop">Help Centre</a>
+                <a href="tel:0356280804">Call: 035 628 0804</a>
+            </div>
+            <div class="top-nav-right">
+                <span>Budget to Premium</span>
+                <span>Delivery Available</span>
+                <span>Secure Checkout</span>
+            </div>
+        </div>
+    </div>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="brand-logo" aria-label="Mkhize's Furniture home">
+                <img class="brand-image" src="images/Mkhize logo.png" alt="Mkhize's Furniture">
+            </a>
+
+            <nav class="main-nav">
+                <a href="index.html" class="active">Home</a>
+                <a href="shop.html">Shop All</a>
+                <a href="shop.html?room=lounge">Lounge</a>
+                <a href="shop.html?room=bedroom">Bedroom</a>
+                <a href="shop.html?room=dining">Dining</a>
+                <a href="shop.html?room=office">Office</a>
+                <a href="shop.html?room=decor">Décor</a>
+                <a href="shop.html?room=outdoor">Outdoor</a>
+                <a href="shop.html?room=kitchen">Appliances</a>
+            </nav>
+
+            <div class="header-actions">
+                <div class="search-container">
+                    <input type="text" id="homeSearch" placeholder="Search couches, beds, bar fridges, coffee tables...">
+                    <button class="search-btn" id="homeSearchBtn" type="button" aria-label="Search">🔍</button>
+                </div>
+
+                <button class="header-link-btn" id="trackOrderBtn" type="button">Track Order</button>
+
+                <button class="cart-toggle" id="cartToggle" type="button" aria-label="Open cart">
+                    <span>🛒</span>
+                    <span>Cart</span>
+                    <span class="cart-count" id="cartCount">0</span>
+                </button>
+
+                <button class="mobile-menu-btn" id="mobileMenuBtn" type="button" aria-label="Open menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-nav" id="mobileNav">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop All</a>
+        <a href="shop.html?room=lounge">Lounge</a>
+        <a href="shop.html?room=bedroom">Bedroom</a>
+        <a href="shop.html?room=dining">Dining</a>
+        <a href="shop.html?room=office">Office</a>
+        <a href="shop.html?room=outdoor">Outdoor</a>
+        <a href="shop.html?room=kitchen">Appliances</a>
+        <a href="shop.html?room=decor">Décor</a>
+        <a href="#" id="trackOrderMobileLink">Track Order</a>
+        <a href="tel:0356280804">Call Us</a>
+    </div>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-layout">
+            <div class="hero-content">
+                <span class="hero-tag">Furniture and appliances for every budget</span>
+                <h1>From starter homes to premium spaces, furnish your life beautifully.</h1>
+                <p>
+                    Shop couches, beds, dining sets, office furniture, outdoor pieces, fridges,
+                    microwaves, air fryers and décor — all in one place.
+                </p>
+                <div class="hero-buttons">
+                    <a href="shop.html" class="btn-primary">Shop Collection</a>
+                    <a href="#featured" class="btn-secondary">View Specials</a>
+                </div>
+            </div>
+
+            <div class="hero-visual" aria-hidden="true">
+                <div class="hero-visual-card hero-visual-card-large">
+                    <img src="images/WhatsApp Image 2026-04-22 at 14.08.51.jpeg" alt="">
+                    <div class="hero-visual-caption">
+                        <span>Bedroom storage</span>
+                        <strong>Full-height statement pieces</strong>
+                    </div>
+                </div>
+                <div class="hero-visual-stack">
+                    <div class="hero-visual-card">
+                        <img src="images/WhatsApp Image 2026-04-22 at 14.08.57.jpeg" alt="">
+                        <div class="hero-visual-caption">
+                            <span>Lounge comfort</span>
+                            <strong>Relaxed everyday seating</strong>
+                        </div>
+                    </div>
+                    <div class="hero-visual-card">
+                        <img src="images/WhatsApp Image 2026-04-22 at 14.13.15.jpeg" alt="">
+                        <div class="hero-visual-caption">
+                            <span>Kitchen storage</span>
+                            <strong>Clean, practical finishes</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="trust-banner">
+            <div class="trust-item">
+                <span class="trust-icon">💸</span>
+                <div>
+                    <h4>Budget to Premium</h4>
+                    <p>Affordable, family and luxury price tiers.</p>
+                </div>
+            </div>
+            <div class="trust-item">
+                <span class="trust-icon">🚚</span>
+                <div>
+                    <h4>Delivery Available</h4>
+                    <p>Delivery and collection options available at checkout.</p>
+                </div>
+            </div>
+            <div class="trust-item">
+                <span class="trust-icon">🔒</span>
+                <div>
+                    <h4>Trusted Checkout</h4>
+                    <p>Order reference, payment proof upload and confirmation tracking.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block" id="featured">
+            <div class="section-heading">
+                <span class="section-label">Featured Deals</span>
+                <h2>Top picks and manager’s specials</h2>
+                <p>These are selected to give your store a realistic promotion-led shopping feel.</p>
+            </div>
+            <div class="product-grid" id="featuredGrid"></div>
+        </section>
+
+        <section class="section-block">
+            <div class="section-heading">
+                <span class="section-label">Best Sellers</span>
+                <h2>Fast-moving store items</h2>
+                <p>Popular picks across furniture and appliances.</p>
+            </div>
+            <div class="product-grid" id="bestSellerGrid"></div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div>
+                <a href="index.html" class="brand-logo footer-logo">
+                    <img class="brand-image" src="images/Mkhize logo.png" alt="Mkhize's Furniture">
+                </a>
+                <p>From first-home value buys to premium statement pieces.</p>
+            </div>
+
+            <div>
+                <h4>Shop</h4>
+                <a href="shop.html?room=lounge">Lounge</a>
+                <a href="shop.html?room=bedroom">Bedroom</a>
+                <a href="shop.html?room=dining">Dining</a>
+                <a href="shop.html?room=kitchen">Appliances</a>
+            </div>
+
+            <div>
+                <h4>Support</h4>
+                <a href="tel:0356280804">Call: 035 628 0804</a>
+                <a href="#" id="trackOrderFooterLink">Track Order</a>
+                <a href="#" id="helpCentreLinkFooter">Help Centre</a>
+            </div>
+
+            <div>
+                <h4>Payments</h4>
+                <p>EFT / Deposit accepted</p>
+                <p>Payment proof upload required</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Mkhize's Furniture. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- CART DRAWER -->
+    <aside class="cart-drawer" id="cartDrawer">
+        <div class="drawer-header">
+            <h3>Your Cart</h3>
+            <button class="icon-btn" id="closeCart" type="button">&times;</button>
+        </div>
+        <div class="drawer-body" id="cartContent"></div>
+        <div class="drawer-footer">
+            <div class="cart-summary-line"><span>Subtotal</span><strong id="cartSubtotal">R 0</strong></div>
+            <div class="cart-summary-line"><span>Estimated Delivery</span><strong id="cartDeliveryPreview">Calculated at checkout</strong></div>
+            <div class="cart-summary-line total"><span>Total</span><strong id="cartTotalSum">R 0</strong></div>
+            <button class="btn-primary full-width" id="openCheckoutBtn" type="button">Proceed to Checkout</button>
+            <button class="btn-outline full-width" id="continueShoppingBtn" type="button">Continue Shopping</button>
+        </div>
+    </aside>
+
+    <div class="drawer-overlay" id="drawerOverlay"></div>
+
+    <!-- PRODUCT DETAILS MODAL -->
+    <div class="product-modal" id="productModal">
+        <div class="product-modal-inner">
+            <button class="icon-btn product-modal-close" id="closeProductModal" type="button">&times;</button>
+            <div id="productModalContent"></div>
+        </div>
+    </div>
+
+    <!-- CHECKOUT MODAL -->
+    <div class="checkout-modal" id="checkoutModal">
+        <div class="checkout-modal-inner">
+            <button class="icon-btn checkout-close" id="closeCheckoutModal" type="button">&times;</button>
+
+            <div class="checkout-grid">
+                <div>
+                    <span class="section-label">Secure Checkout</span>
+                    <h2 class="checkout-title">Complete Your Order</h2>
+                    <p class="checkout-note">
+                        Fill in your details, review your order, use your order reference for payment,
+                        and upload proof of payment to complete checkout.
+                    </p>
+
+                    <div class="checkout-form">
+                        <input type="text" id="checkoutName" placeholder="Full Name">
+                        <input type="tel" id="checkoutPhone" placeholder="Phone Number">
+                        <input type="email" id="checkoutEmail" placeholder="Email Address">
+                        <select id="checkoutDeliveryMethod">
+                            <option value="delivery">Home Delivery</option>
+                            <option value="collection">Collection</option>
+                        </select>
+                        <input type="text" id="checkoutAddress" placeholder="Street Address">
+                        <input type="text" id="checkoutCity" placeholder="City / Town">
+                        <input type="text" id="checkoutPostal" placeholder="Postal Code">
+                        <textarea id="checkoutOrderNote" placeholder="Order notes, landmarks, unit number, preferred contact time..."></textarea>
+                    </div>
+
+                    <div class="bank-details-box" id="bankDetailsBox">
+                        <h4>Banking Details</h4>
+                        <p><strong>Bank:</strong> <span id="bankNameText">YOUR BANK NAME</span></p>
+                        <p><strong>Account Name:</strong> <span id="accountNameText">YOUR ACCOUNT NAME</span></p>
+                        <p><strong>Account Number:</strong> <span id="accountNumberText">YOUR ACCOUNT NUMBER</span></p>
+                        <p><strong>Branch Code:</strong> <span id="branchCodeText">YOUR BRANCH CODE</span></p>
+                        <p><strong>Account Type:</strong> <span id="accountTypeText">YOUR ACCOUNT TYPE</span></p>
+                        <p><strong>Payment Reference:</strong> <span id="orderNumberDisplay">MKH-000000</span></p>
+                    </div>
+
+                    <div class="upload-box">
+                        <h4>Proof of Payment</h4>
+                        <p>Upload proof of deposit before placing your order.</p>
+                        <input type="file" id="depositProof" accept=".jpg,.jpeg,.png,.pdf">
+                    </div>
+                </div>
+
+                <div class="checkout-summary-box">
+                    <h3>Order Summary</h3>
+                    <div id="checkoutItems"></div>
+
+                    <div class="checkout-totals">
+                        <div><span>Subtotal</span><strong id="checkoutSummarySubtotal">R 0</strong></div>
+                        <div><span>Delivery</span><strong id="checkoutSummaryDelivery">R 0</strong></div>
+                        <div class="grand-total"><span>Total</span><strong id="checkoutTotal">R 0</strong></div>
+                    </div>
+
+                    <div class="order-number-box">
+                        <h4>Order Reference</h4>
+                        <p>Use this exact reference when making payment:</p>
+                        <span class="order-number" id="checkoutReferenceLine">MKH-000000</span>
+                    </div>
+
+                    <div class="whatsapp-box">
+                        <h4>Need Help?</h4>
+                        <p>Send your order number and proof of payment on WhatsApp if you need assistance.</p>
+                        <a href="#" class="whatsapp-link" id="whatsappOrderLink" target="_blank" rel="noopener noreferrer">Send on WhatsApp</a>
+                    </div>
+
+                    <p class="checkout-note">
+                        Orders are confirmed after payment proof is received and reviewed.
+                    </p>
+
+                    <button class="btn-primary full-width" id="placeOrderBtn" type="button">Place Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TRACK ORDER MODAL -->
+    <div class="track-modal" id="trackOrderModal">
+        <div class="track-modal-inner">
+            <button class="icon-btn track-close" id="closeTrackModal" type="button">&times;</button>
+            <div class="track-grid">
+                <div class="track-search-card">
+                    <span class="section-label">Track Order</span>
+                    <h2 class="track-title">Find your order</h2>
+                    <div class="track-search-form">
+                        <input type="text" id="trackSearchInput" placeholder="Enter your order number">
+                        <button class="track-search-btn btn-primary" id="trackSearchBtn" type="button">Search</button>
+                    </div>
+                    <p class="track-hint">Example: MKH-123456</p>
+                </div>
+
+                <div id="trackResultContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
